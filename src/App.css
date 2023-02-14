@@ -1,38 +1,91 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Upper {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.currentDate {
+  margin-left: 0.5rem;
+  color: grey;
+}
+
+.MainContent {
+  display: flex;
+}
+
+.ContentArea {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.LogoContainer {
+  width: 20%;
+}
+
+.AppLogo {
+  margin-top: 1rem;
+  width: 100px;
+  padding-right: 1rem;
+}
+
+.MainLineSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  border: 1px solid yellow;
+}
+
+.ServiceLinks {
+  width: 80%;
+}
+
+.serviceLink {
+  margin: 0.25rem;
+}
+
+.upper-left-col {
+  width: 70%;
+}
+
+.img-icon-UpperLeftColItem {
+  width: 1rem;;
+}
+
+.link-item-UpperLeftColItem {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 0.25rem;
+}
+
+.upper-right-col {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.img-icon-UpperRightColItem {
+  width: 3rem;
+}
+
+.SearchLine {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+.StringToSearch {
+  color: gray;
 }
